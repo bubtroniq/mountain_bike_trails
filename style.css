@@ -3,8 +3,10 @@
 
 /* Reset */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     box-sizing: border-box;
 }
@@ -31,6 +33,7 @@ body {
 .nav-item {
     margin-bottom: 8px;
 }
+
 
 .nav-link {
     color: #000;
@@ -70,8 +73,6 @@ body {
 /* Main area styles*/
 
 .content {
-    display: grid;
-    /* grid-template-columns: 360px; */
     text-align: center;
 }
 
@@ -117,7 +118,7 @@ body {
 .hero-img3 h1,
 .hero-img4 h1  {
     color: #fff;
-    font-size: 3.9em;
+    font-size: 3.5em;
     text-align: center;
     font-weight: 800;
     margin: 620px 0 0 0;
@@ -127,12 +128,13 @@ body {
 
 
 .description {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 500;
     line-height: 1.4;
     padding: 25px 10px;
-    text-align: center;
+    text-align: justify;
     max-width: 96%;
+    margin: 0 auto;
 }
 
 
@@ -141,9 +143,18 @@ body {
 /* Footer styles */
 
 
+.brands {
+    background-image: url("assets/img/brands.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 20em;
+    margin: 3em 0;
+    opacity: 0.8;
+}
+
 .contact {
-    /* margin: 1em auto; */
-    
     display: flex;
 }
 
@@ -194,11 +205,65 @@ body {
 }
 
 .subheading {
-    font-size: 26px;
+    font-size: 2.2em;
     font-weight: 600;
     text-transform: uppercase;
     color: #d02300;
     padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Booking Form styles */
+
+section p i {
+    padding: 1em 1em;
+    font-size: 37px;
+    color: #d02300;
+}
+
+
+#bookingform {
+    max-width: 100vw;
+    margin: 3em auto 0 auto;
+    background-image: url("assets/img/form-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-element {
+    padding: 2em 1em;
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#bookingform input[type=text],
+#bookingform input[type=email],
+#bookingform input[type=date] {
+    font-size: 1.3em;
+    opacity: 0.4;
+    color: #000;
+}
+
+.btn-form {
+    background-color: #d02300;
+    opacity: 1;
+    border: none;
+    font-size: 1.3em;
+    color: #fff;
+    border-radius: 7px;
+    transition: all ease-out 150ms;
+}
+
+.btn-form:focus,
+.btn-form:hover {
+    background-color: rgb(109, 23, 23);
+    transform: scale(1.1);
 }
 
 
