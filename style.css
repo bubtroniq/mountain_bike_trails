@@ -135,12 +135,15 @@ body {
     font-size: 1.6em;
     font-weight: 500;
     line-height: 1.4;
-    padding: 25px 10px;
+    margin: 3em auto 2em auto;
     text-align: justify;
     max-width: 96%;
-    margin: 0 auto;
+    padding-bottom: 2em;
 }
 
+.margin-top {
+    margin-top: 4em;
+}
 
 
 
@@ -213,7 +216,6 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: #d02300;
-    padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -226,7 +228,7 @@ body {
 }
 
 section p i {
-    padding: 1em 1em;
+    padding: 0 1em;
     font-size: 37px;
     color: #d02300;
 }
@@ -278,3 +280,43 @@ section p i {
 
 
 /*Small Tablet Styles */
+
+
+
+/* Large tablets and Laptops style */
+
+@media only screen and (min-width: 960px) {
+
+    
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        max-width: 90%;
+        margin: 4em auto;
+    }
+
+    .media-top-mg {
+        padding-top: 5em;
+    }
+
+    .span-right {
+        grid-column: 2 / 3;
+    }
+
+    .map {
+        grid-column: 1 / 3;
+    }
+
+    .description {
+        font-size: 2em;
+    }
+    .subheading {
+        font-size: 2.5em;
+    }
+
+    .align-item {
+        align-self: center;
+    }
+}
+
