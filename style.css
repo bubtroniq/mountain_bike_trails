@@ -84,19 +84,47 @@ body {
     overflow: hidden;
 }
 
-.hero-img h1 {
+.hero-img2 {
+    background-image: url("assets/img/hero-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-img3 {
+    background-image: url("assets/img/hero-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-img4 {
+    background-image: url("assets/img/hero-img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.hero-img h1,
+.hero-img2 h1,
+.hero-img3 h1,
+.hero-img4 h1  {
     color: #fff;
     font-size: 3.9em;
     text-align: center;
     font-weight: 800;
     margin: 620px 0 0 0;
     padding: 20px 5px;
-}
-
-
-.hero-img h1 {
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 
 .description {
     font-size: 2em;
@@ -107,9 +135,6 @@ body {
     max-width: 96%;
 }
 
-.map {
-
-}
 
 
 
