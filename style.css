@@ -15,6 +15,56 @@ body {
 
 
 /* Base Styles */
+.flex {
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+}
+
+.content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.description {
+    font-size: 1.6em;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 3em auto 2em auto;
+    text-align: justify;
+    max-width: 96%;
+    padding-bottom: 2em;
+}
+
+.subheading {
+    font-size: 2.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d02300;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.margin-top {
+    margin-top: 6em;
+}
+
+.outline img {
+    width: 30%;
+}
+
+span {
+    padding-right: 1em;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #000;
+}
+
+.map {
+    grid-column: 1 / 3;
+}
+
 
 
 
@@ -72,9 +122,7 @@ body {
 
 /* Main area styles*/
 
-.content {
-    text-align: center;
-}
+
 
 .hero-img {
     max-width: 100vw;
@@ -129,22 +177,6 @@ body {
     padding: 20px 5px;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
-
-.description {
-    font-size: 1.6em;
-    font-weight: 500;
-    line-height: 1.4;
-    margin: 3em auto 2em auto;
-    text-align: justify;
-    max-width: 96%;
-    padding-bottom: 2em;
-}
-
-.margin-top {
-    margin-top: 4em;
-}
-
 
 
 /* Footer styles */
@@ -211,13 +243,7 @@ body {
     transform: scale(1.1);
 }
 
-.subheading {
-    font-size: 2.2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #d02300;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 
 
 /* Booking Form styles */
@@ -304,10 +330,7 @@ section p i {
         grid-column: 2 / 3;
     }
 
-    .map {
-        grid-column: 1 / 3;
-    }
-
+    
     .description {
         font-size: 2em;
     }
@@ -317,6 +340,14 @@ section p i {
 
     .align-item {
         align-self: center;
+    }
+
+    .flex {
+        display: flex; 
+    }
+
+    .outline {
+        outline: 1px solid #000;
     }
 }
 
