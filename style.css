@@ -19,6 +19,11 @@ body {
     display: flex; 
     justify-content: center;
     align-self: center;
+    text-align: center;
+}
+
+.column-direction {
+    flex-direction: column;
 }
 
 .content {
@@ -328,6 +333,10 @@ section p i {
 
     .span-right {
         grid-column: 2 / 3;
+    }
+
+    .grid-row {
+        grid-row: 1 / 3;
     }
 
     
