@@ -1,2 +1,2 @@
-# Mountain bike trails in Romania
+# Mountain biking trails in Romania
 
