@@ -298,6 +298,12 @@ section p i {
     color: #d02300;
 }
 
+div p i {
+    padding: 0 1em;
+    font-size: 3.7em;
+    color: #d02300;
+}
+
 
 #bookingform {
     max-width: 100vw;
