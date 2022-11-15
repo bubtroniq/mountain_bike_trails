@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    background: #fafafa;
 }
 
 
@@ -74,6 +75,16 @@ span {
     grid-column: 1 / 3;
 }
 
+.map iframe {
+    width: 96%;
+    height: 450px;
+}
+
+.media iframe {
+    width: 95%;
+    height: 350px;
+}
+
 section.trail a {
     text-decoration: none;
     color: #000;
@@ -87,11 +98,13 @@ section.trail a {
 section.trail {
     text-decoration: none;
     transition: all 250ms ease;
+    max-width: 96%;
+    margin: 1em auto;
 }
 
 section.trail:focus,
 section.trail:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 
@@ -136,10 +149,16 @@ section.trail:hover {
     font-size: 27px;
     line-height: 1.4;
     display: inline-block;
-    background-color: #fff;
     padding: 5px 15px;
     border-radius: 10px;
+    transition: all ease-out 150ms;
 }
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color:rgb(114, 12, 12);
+}
+
 .logo {
     width: 9em;
     height: 6em;
@@ -155,7 +174,7 @@ section.trail:hover {
 
 .hero-img {
     max-width: 100vw;
-    background-image: url("assets/img/hero-image.webp");
+    background-image: url("../img/hero-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,7 +184,7 @@ section.trail:hover {
 
 .hero-img2 {
     max-width: 100vw;
-    background-image: url("assets/img/hero-img2.jpg");
+    background-image: url("../img/hero-img2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,7 +194,7 @@ section.trail:hover {
 
 .hero-img3 {
     max-width: 100vw;
-    background-image: url("assets/img/hero-img3.jpg");
+    background-image: url("../img/hero-img3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,7 +204,7 @@ section.trail:hover {
 
 .hero-img4 {
     max-width: 100vw;
-    background-image: url("assets/img/hero-img4.jpg");
+    background-image: url("../img/hero-img4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,13 +231,11 @@ section.trail:hover {
 
 
 .brands {
-    background-image: url("assets/img/brands.png");
+    background-image: url("../img/brands.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
     height: 20em;
-    margin: 3em 0;
     opacity: 0.8;
 }
 
@@ -233,6 +250,8 @@ section.trail:hover {
 }
 
 .btn-footer {
+    display: inline-block;
+    text-decoration: none;
     color: #fff;
     background-color:#d02300;
     padding: 1em 1em;
@@ -240,12 +259,14 @@ section.trail:hover {
     width: 100%;
     font-size: 2em;
     font-weight: 700;
+    text-align: center;
     transition: all ease-out 150ms;
 }
 
 .btn-footer:hover,
 .btn-footer:focus {
     background-color: rgb(114, 12, 12);
+    color: #fff;
 }
 
 
@@ -280,6 +301,7 @@ section.trail:hover {
 .form {
     width: 37em;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 section p i {
@@ -292,7 +314,7 @@ section p i {
 #bookingform {
     max-width: 100vw;
     margin: 3em auto 0 auto;
-    background-image: url("assets/img/form-bg.jpeg");
+    background-image: url("../img/form-bg.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,7 +323,7 @@ section p i {
 #aboutform {
     max-width: 100vw;
     margin: 3em auto 0 auto;
-    background-image: url("assets/img/aboutform-bg.jpg");
+    background-image: url("../img/aboutform-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -325,7 +347,7 @@ section p i {
 #bookingform input[type=email],
 #bookingform input[type=date] {
     font-size: 1.2em;
-    opacity: 0.6;
+    opacity: 0.3;
     color: #000;
     outline: none;
 }
@@ -334,12 +356,12 @@ section p i {
 #aboutform input[type=email],
 #aboutform input[type=date] {
     font-size: 1.2em;
-    opacity: 0.6;
+    opacity: 0.3;
     color: #000;
     outline: none;
 }
 #aboutform textarea {
-    opacity: 0.6;
+    opacity: 0.3;
     color: #000;
     width: 100%;
     outline: none;
@@ -358,7 +380,7 @@ section p i {
 .btn-form:focus,
 .btn-form:hover {
     background-color: rgb(109, 23, 23);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -368,6 +390,15 @@ section p i {
 
 
 /*Small Tablet Styles */
+@media only screen and (min-width:620px) {
+    .description {
+        font-size: 1.8em;
+    }
+
+    .subheading {
+        font-size: 3em;
+    }
+}
 
 
 
@@ -414,6 +445,16 @@ section p i {
 
     .flex {
         display: flex; 
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 450px;
+    }
+
+    .media iframe {
+        width: 95%;
+        height: 500px;
     }
 }
 
