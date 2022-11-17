@@ -87,7 +87,7 @@ The website is comprised of four pages(home page, trails page,book page and abou
 
 * Home Page 
 
-    * Main content is broken down into six sections, each section contains an icon with a heading, relevant text and a map/youtube video embedded. On large screens it is displayed as a grid with two columns, on small screens it is displayed stacked verticaly.
+    * Main content is broken down into five sections and a map iframe, each section contains an icon with a heading, relevant text and youtube video embedded. On large screens it is displayed as a grid with two columns, on small screens it is displayed stacked verticaly.
 
 * Trails Page
 
