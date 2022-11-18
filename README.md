@@ -36,19 +36,21 @@ On the website you can find details about routes, locations, guides, how to prep
 * To allow visitors to be able to contact local guides for further questions and how to book a ride.
 
 #### First Time Visitor Goals
-
+* I want updated and detailed information.
 * I want to find out how i can ride romanian mountain biking trails.
 * I want to be able to navigate the site, easily to find information.
 * I want to be able to find guide's social media pages.
 * I want to be able to book a ride, see more details about trails (pictures and videos with trails) and to contact local guides with further questions.
 
 #### Returning Visitor Goals
-
+* I want updated and detailed information.
 * I want to find up to date information about trails, weather or guides.
 * I want to be able to easily contact the guides with questions I might have.
 
 #### Frequent Visitoe Goals 
 
+* I want a fast load time.
+* I want updated and detailed information.
 * I want to be able to view videos and pictures with trails and local guides.
 ___
 
@@ -105,6 +107,7 @@ The website is comprised of four pages(home page, trails page,book page and abou
 
     * Use JavaScript to make forms functional.
     * Updates for guides, trails conditions and weather widgets.
+    * A 24h phone line where visitors can ask any questions they might have.
     * More pictures and videos with trails and guides.
     * A feedback section, where users can post comments regarding their experience on the trails or any advice for future riders.
 
@@ -113,7 +116,7 @@ The website is comprised of four pages(home page, trails page,book page and abou
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I achieved that by:
 
 * Using semantic HTML
-* Using descriptive alt atributes on imageson the site.
+* Using descriptive alt atributes on images, iframes and a tags on the site.
 * Ensuring that there is a sufficient colour contrast throughout the site
 
 ### Technologies Used 
@@ -181,6 +184,10 @@ Testing was ongoing throughout the entire build. I utilised Firefox developer to
 The following issues were raised during my mid project meeting with my mentor:
 
 * The trails section was overflowing, causing horizontal scrooling on hover
+* Footer button were wraped in an achor tag, cauzing errors.
+* Poor HTML comments
+* Semanticaly wrong commit messages.
+* To improve forms contrast for better accessibility.
 
 #### W3C Validator
 

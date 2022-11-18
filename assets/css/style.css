@@ -6,6 +6,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -168,9 +170,9 @@ section.trail:hover {
 
 
 
-.hero-img {
+.home {
     max-width: 100vw;
-    background-image: url("../img/hero-image.jpg");
+    background-image: url("../img/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -178,9 +180,9 @@ section.trail:hover {
     overflow: hidden;
 }
 
-.hero-img2 {
+.trails {
     max-width: 100vw;
-    background-image: url("../img/hero-img2.jpg");
+    background-image: url("../img/trails.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -188,9 +190,9 @@ section.trail:hover {
     overflow: hidden;
 }
 
-.hero-img3 {
+.book{
     max-width: 100vw;
-    background-image: url("../img/hero-img3.jpg");
+    background-image: url("../img/book.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -198,9 +200,9 @@ section.trail:hover {
     overflow: hidden;
 }
 
-.hero-img4 {
+.about {
     max-width: 100vw;
-    background-image: url("../img/hero-img4.jpg");
+    background-image: url("../img/about.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,10 +211,10 @@ section.trail:hover {
 }
 
 
-.hero-img h1,
-.hero-img2 h1,
-.hero-img3 h1,
-.hero-img4 h1  {
+.home h1,
+.trails h1,
+.book h1,
+.about h1  {
     color: #fff;
     font-size: 3.5em;
     text-align: center;
