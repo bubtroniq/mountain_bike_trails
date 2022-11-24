@@ -3,12 +3,13 @@
 
 The Mountain biking trails in Romania website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about mountain biking trails in Romania.
 
-![alt text](documentation/index.jpg)
+![main page](documentation/index.jpg "main page")
 
 ## CONTENTS
 ___
 
 ## User Experience (UX)
+![responsive layouts](documentation/iamresponsive.jpg "responsive layouts")
 ___
 
 ### Initial Discusion
@@ -21,7 +22,7 @@ On the website you can find details about routes, locations, guides, how to prep
 
 * Most and less known trails in the country.
 * Locations
-* How to book a ride with locl guides
+* How to book a ride with local guides
 * How to prepare yourself for these rides.
 * A way for people to cantact local guides with questions and recommendations.
 * Updates on weather or closed trails.
@@ -176,20 +177,4 @@ To clone the mountain-bikin-trails-in-romania repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
----
-#### Testing
----
 
-Testing was ongoing throughout the entire build. I utilised Firefox developer tools while building to pinpoint and troubleshoot any issues as I went along.
-
-The following issues were raised during my mid project meeting with my mentor:
-
-* The trails section was overflowing, causing horizontal scrooling on hover
-* Footer button were wraped in an achor tag, cauzing errors.
-* Poor HTML comments
-* Semanticaly wrong commit messages.
-* To improve forms contrast for better accessibility.
-
-#### W3C Validator
-
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
