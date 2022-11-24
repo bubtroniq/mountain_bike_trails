@@ -43,16 +43,17 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
 }
 
 .description {
     font-size: 1.6em;
     font-weight: 500;
     line-height: 1.4;
-    margin: 3em auto 2em auto;
+    margin: 0 auto 0 auto;
     text-align: justify;
     max-width: 96%;
-    padding-bottom: 2em;
+    padding-top: 5em;
 }
 
 .subheading {
@@ -93,6 +94,7 @@ span i {
 .media iframe {
     width: 95%;
     height: 350px;
+    margin: 0 auto;
 }
 
 section.trail a {
@@ -295,7 +297,7 @@ section.trail:hover {
 /* Booking Form styles */
 
 .form {
-    width: 37em;
+    width: 360px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -307,7 +309,7 @@ section p i {
 }
 
 div p i {
-    padding: 0 1em;
+    padding: 1em 1em 0 1em;
     font-size: 3.7em;
     color: #d02300;
 }
@@ -332,7 +334,7 @@ div p i {
 }
 
 .form-element {
-    padding: 2em 1em;
+    padding: 1em 1em;
     text-align: center;
     font-size: 1.7em;
     text-transform: uppercase;
@@ -341,9 +343,6 @@ div p i {
     color: #fff;
 }
 
-#textarea {
-    margin: 0 auto;
-}
 
 #bookingform input[type=text],
 #bookingform input[type=email],
@@ -365,8 +364,11 @@ div p i {
 #aboutform textarea {
     opacity: 0.3;
     color: #000;
-    width: 100%;
+    height: 10em;
+    width: 18em;
     outline: none;
+    margin: 0 auto;
+
 }
 
 .btn-form {
@@ -377,6 +379,7 @@ div p i {
     color: #fff;
     border-radius: 7px;
     transition: all ease-out 150ms;
+    padding: 0.5em;
 }
 
 .btn-form:focus,
@@ -452,6 +455,7 @@ div p i {
     .media iframe {
         width: 95%;
         height: 500px;
+        margin: 0 auto;
     }
 }
 

@@ -3,7 +3,7 @@
 
 The Mountain biking trails in Romania website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about mountain biking trails in Romania.
 
-![alt text](https://ui.dev/amiresponsive?url=https://bubtroniq.github.io/mountain_bike_trails/index.html)
+![alt text](documentation/index.jpg)
 
 ## CONTENTS
 ___
@@ -60,6 +60,7 @@ ___
 #### Colour Scheme
 
 The website uses a palette of pastel colours that are used on the backgroud, headings, navigation, text and icons.
+![alt text](documentation/pallete-colours.jpg "image Title")
 
 #### Typography
 
@@ -128,15 +129,15 @@ HTML and CSS were used to create this website.
 
 #### Frameworks, Libraries & Programs Used
 
-Git - For version control.
+[Git](https://git-scm.com/) - For version control.
 
-Github - To save and store files for the website and to deploy the website for easier testing across different devices.
+[Github](https://github.com/bubtroniq/mountain_biking_trails_in_romania) - To save and store files for the website and to deploy the website for easier testing across different devices.
 
-Bootstrap Version 5.2 - Code for navigation bar. Additional CSS styling was also implemented in style.css
+[Bootstrap Version 5.2](https://getbootstrap.com/) - Code for navigation bar. Additional CSS styling was also implemented in style.css
 
-Google Fonts - To import the fonts used on the website.
+[Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-Font Awesome - For iconography on the website.
+[Font Awesome](https://fontawesome.com/) - For iconography on the website.
 
 [Favicons.io](https://favicon.io/) To create favicon.
 

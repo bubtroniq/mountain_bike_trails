@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- -------------------------- Meta tags -->
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="description" content="Best Romanian mountain bike trails">
     <meta name="keywords" content="MTB, Romania, Downhill, Enduro, XC">
@@ -9,67 +9,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain bike trails in Romania</title>
-    <!-- -------------------------- Boostrap CDN link -->
+    <!-- Boostrap CDN link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- -------------------------- My Stylesheet -->
+    <!-- My Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- -------------------------- Favicon -->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <!-- -------------------------- Font Awesome CDN link -->
+    <!-- Font Awesome CDN link -->
     <script src="https://kit.fontawesome.com/8e6daae934.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    
+            <!-- Header -->
+            <header>
 
-    <!-- Header -->
-    <header>
-
-        <!-- Navigation menu --- Bootstrap code used and modified  -->
-        <nav class="navbar">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div><img class="logo" src="assets/img/logo.jpg" alt="logo">
-              </div>
-              <a class="navbar-brand" href="index.html">Trails.ro</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a name="index" class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a name="trails" class="nav-link" href="trails.html">Trails</a>
-                        </li>
-                        <li class="nav-item">
-                            <a name="book" class="nav-link" href="book.html">Book</a>
-                        </li>
-                        <li class="nav-item">
-                            <a name="about" class="nav-link" href="about.html">About</a>
-                        </li>
-                    </ul>
+                <!-- Navigation menu -->
+                <!-- Bootstrap code used and modified -->
+                <nav class="navbar">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div><img class="logo" src="assets/img/logo.jpg" alt="logo">
+                      </div>
+                      <a class="navbar-brand" href="index.html">Trails.ro</a>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="trails.html">Trails</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="book.html">Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Page Title -->
+                <div class="book">
+                    <h1>Mountain biking trails in Romania</h1>
                 </div>
-            </div>
-        </nav>
-        <!-- -------------------------- Page Title -->
-        <div class="book">
-            <h1>Mountain biking trails in Romania</h1>
-        </div>
-    </header>
-
+            </header>
 
     <!-- Main content -->
     <main>
-        <section  class="content">
+
+        <div class="margin-top">
             <!-- Icon and heading -->
-            <div class="margin-top">
-                <p><i class="fa-solid fa-play"></i></p>
-                <h2 class="subheading">Start your adventure here!</h2>
+            <div class="flex column-direction">
+                <p><i class="fa-solid fa-circle-info"></i></p>
+                <p class="description">At the end of the day, there is so much to be said about riding in Romania. There is established XC, growing DH, and unlimited Enduro. For more info you can get in touch with our guides on their social media pages, sending an email at the following address:info@trails.ro, or by filling in the form below.
+                    One of our staff members will get in touch with you as soon as posible to answer to any questions or thoughts you might have.
+                </p>
             </div>
-            
-            <p class="description">Romania's vast landscapes and steep mountains attract not only hikers and mountaineers, but also cyclists and mountain bikers with a wide variety of track needs. While Transylvania is characterised by gentle hills and the Danube cycle path has only very slight gradients over 1075 kilometres, the Southern Carpathians, the so-called Transylvanian Alps, have steep pass and serpentine roads.
-            </p>
-        </section>
+
+        </div>
 
         <section>
             <!-- Icon and heading -->
@@ -84,21 +85,21 @@
                 <div class="form">
                 <form>
                     <div class="form-element">
-                        <label for="firstname">First Name:</label>
+                        <label for="firstname">First Name:</label> <br>
                         <input type="text" id="firstname" required>
                     </div>
                     <div class="form-element">
-                        <label for="lastname">Last Name:</label>
+                        <label for="lastname">Last Name:</label> <br>
                         <input type="text" id="lastname" required>
                     </div>
                     <div class="form-element">
-                        <label for="email">Email:</label>
+                        <label for="email">Email:</label> <br>
                         <input type="email" id="email" required>
                     </div>
                     <div class="form-element">
-                        <label for="date">First day of trip</label><br>
-                        <input type="date" id="date" required><br><br>
-                        <label for="date2">Last day of trip</label><br>
+                        <label for="date">First day of trip</label> <br>
+                        <input type="date" id="date" required><br> <br>
+                        <label for="date2">Last day of trip</label> <br>
                         <input type="date" id="date2" required>
                     </div>
                     <div class="form-element">
@@ -108,34 +109,26 @@
                 </div>
             </div>
         </section>
+
     </main>
-    
 
 
+ <!-- Footer -->
 
 
-
-
-
-
-    <!-- Footer -->
-
-  <!-- Footer -->
-
-
-  <footer>
-    <!-- -------------------------- Picture with logo -->
-    <a name="bikes-logo" alt="bicycles logos" href="https://www.bikexpert.ro/" target="_blank"><div class="brands"></div></a>
+ <footer>
+    <!-- Picture with logo -->
+    <a href="https://www.bikexpert.ro/" target="_blank"><div class="brands"></div></a>
 
     <!-- Contact buttons -->
 
     <div class="contact">
         <div class="btn-box">
-            <a name="emailus" alt="" href="about.html" class="btn-footer"><i class="fa-regular fa-envelope"></i> EMAIL US</a>
+            <a href="about.html" class="btn-footer"><i class="fa-regular fa-envelope"></i> EMAIL US</a>
             
         </div>
         <div class="btn-box">
-            <a name="callus" href="about.html" class="btn-footer"><i class="fa-solid fa-phone"></i> CALL US</a>
+            <a href="about.html" class="btn-footer"><i class="fa-solid fa-phone"></i> CALL US</a>
         </div>
             
     </div>
@@ -144,16 +137,17 @@
 
     <div class="social-media">
         <h2>Follow us on</h2>
-        <a name="facebook" href="https://www.facebook.com/" target="_blank" alt="Facebook link"><i class="fa-brands fa-facebook"></i></a>
-        <a name="instagram" href="https://www.instagram.com/" target="_blank" alt="Instagram link"><i class="fa-brands fa-instagram"></i></a>
-        <a name="twitter" href="https://twitter.com/" target="_blank" alt="Twitter link"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
 
     </div>
 </footer>
 
 
 
-    <!-- Boostrap CDN link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Boostrap CDN link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
