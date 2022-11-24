@@ -174,7 +174,7 @@ section.trail:hover {
 
 .home {
     max-width: 100vw;
-    background-image: url("../img/home.jpg");
+    background-image: url("../img/home.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -184,7 +184,7 @@ section.trail:hover {
 
 .trails {
     max-width: 100vw;
-    background-image: url("../img/trails.jpg");
+    background-image: url("../img/trails.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -194,7 +194,7 @@ section.trail:hover {
 
 .book{
     max-width: 100vw;
-    background-image: url("../img/book.jpg");
+    background-image: url("../img/book.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,7 +204,7 @@ section.trail:hover {
 
 .about {
     max-width: 100vw;
-    background-image: url("../img/about.jpg");
+    background-image: url("../img/about.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -231,7 +231,7 @@ section.trail:hover {
 
 
 .brands {
-    background-image: url("../img/brands.png");
+    background-image: url("../img/brands.webp");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -318,7 +318,7 @@ div p i {
 #bookingform {
     max-width: 100vw;
     margin: 3em auto 0 auto;
-    background-image: url("../img/form-bg.jpeg");
+    background-image: url("../img/form-bg.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@ div p i {
 #aboutform {
     max-width: 100vw;
     margin: 3em auto 0 auto;
-    background-image: url("../img/aboutform-bg.jpg");
+    background-image: url("../img/aboutform-bg.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
