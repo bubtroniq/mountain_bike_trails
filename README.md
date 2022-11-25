@@ -48,7 +48,7 @@ On the website you can find details about routes, locations, guides, how to prep
 * I want to find up to date information about trails, weather or guides.
 * I want to be able to easily contact the guides with questions I might have.
 
-#### Frequent Visitoe Goals 
+#### Frequent Visitor Goals 
 
 * I want a fast load time.
 * I want updated and detailed information.
@@ -61,7 +61,7 @@ ___
 #### Colour Scheme
 
 The website uses a palette of pastel colours that are used on the backgroud, headings, navigation, text and icons.
-![alt text](documentation/pallete-colours.jpg "image Title")
+![pallete colours](documentation/pallete-colours.jpg "image Title")
 
 #### Typography
 
