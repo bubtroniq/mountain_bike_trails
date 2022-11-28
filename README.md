@@ -3,13 +3,20 @@
 
 The Mountain biking trails in Romania website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about mountain biking trails in Romania.
 
+<<<<<<< HEAD
 ![main page](documentation/index.jpg "main page")
+=======
+![responsive layouts](documentation/iamresponsive.jpg "responsive layouts")
+>>>>>>> d59d54a (last call preview)
 
-## CONTENTS
 ___
 
 ## User Experience (UX)
+<<<<<<< HEAD
 ![responsive layouts](documentation/iamresponsive.jpg "responsive layouts")
+=======
+
+>>>>>>> d59d54a (last call preview)
 ___
 
 ### Initial Discusion
@@ -92,18 +99,22 @@ The website is comprised of four pages(home page, trails page,book page and abou
 * Home Page 
 
     * Main content is broken down into five sections and a map iframe, each section contains an icon with a heading, relevant text and youtube video embedded. On large screens it is displayed as a grid with two columns, on small screens it is displayed stacked verticaly.
+    ![alt](documentation/firefox1.png)
 
 * Trails Page
 
     * On trails page you can find info about trails, information such as: time to complete the run, lenght and elevation. There are four sections in the trails page, each section contain a landscape picture, a trail map picture and information mentioned above. On large screens, pictures and information is displayed horizontaly in a grid with two rows. On small screens content is displayed stacked verticaly.
+    ![alt](documentation/mobile7.jpg)
 
 * Book Page
 
     * On book page is a section containing general information about mountain biking trails. On large screens it is displayed as a grid with two columns, on small screens stacked verticaly. Under the section it is a booking form, allowing user to send an enquiry to check availability of local guides for preffered dates. 
+    ![alt](documentation/mobile5.jpg)
 
 * About Page
 
     * On about page we can find contact details for guides and another form allowing user to submit any other questions and thoughts.
+    ![alt](documentation/mobile6.jpg)
 
 * Future Implementations.
 
@@ -177,4 +188,24 @@ To clone the mountain-bikin-trails-in-romania repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+<<<<<<< HEAD
 
+=======
+
+
+### Credits
+---
+ - Tim, my mentor. I am grateful for guidance and patience.
+ - Web Dev Simplified and Kevin Powell youtube channels.
+
+#### Resources used
+
+ - W3C markup validation service.
+ - Jigsaw CSS validation service.
+ - Pixabay.com
+ - Coolors.com - used to create colour palette
+ - VSCode
+ - W3Schools.com
+
+Click to go to the [TESTING.md](TESTING.md)
+>>>>>>> d59d54a (last call preview)
