@@ -3,20 +3,11 @@
 
 The Mountain biking trails in Romania website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about mountain biking trails in Romania.
 
-<<<<<<< HEAD
-![main page](documentation/index.jpg "main page")
-=======
 ![responsive layouts](documentation/iamresponsive.jpg "responsive layouts")
->>>>>>> d59d54a (last call preview)
 
 ___
 
 ## User Experience (UX)
-<<<<<<< HEAD
-![responsive layouts](documentation/iamresponsive.jpg "responsive layouts")
-=======
-
->>>>>>> d59d54a (last call preview)
 ___
 
 ### Initial Discusion
@@ -188,10 +179,6 @@ To clone the mountain-bikin-trails-in-romania repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-<<<<<<< HEAD
-
-=======
-
 
 ### Credits
 ---
@@ -208,4 +195,3 @@ To clone the mountain-bikin-trails-in-romania repository:
  - W3Schools.com
 
 Click to go to the [TESTING.md](TESTING.md)
->>>>>>> d59d54a (last call preview)
