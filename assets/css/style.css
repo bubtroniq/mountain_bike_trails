@@ -353,12 +353,12 @@ div p i {
 #aboutform input[type=email],
 #aboutform input[type=date] {
     font-size: 1.2em;
-    opacity: 0.3;
+    opacity: 0.75;
     color: #000;
     outline: none;
 }
 #aboutform textarea {
-    opacity: 0.3;
+    opacity: 0.75;
     color: #000;
     height: 10em;
     width: 18em;
