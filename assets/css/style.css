@@ -339,30 +339,16 @@ div p i {
     color: #fff;
 }
 
-
-#bookingform input[type=text],
-#bookingform input[type=email],
-#bookingform input[type=date] {
-    font-size: 1.2em;
-    opacity: 0.3;
-    color: #000;
-    outline: none;
-}
-
-#aboutform input[type=text],
-#aboutform input[type=email],
-#aboutform input[type=date] {
+input,
+textarea {
     font-size: 1.2em;
     opacity: 0.75;
     color: #000;
     outline: none;
 }
-#aboutform textarea {
-    opacity: 0.75;
-    color: #000;
+textarea {
     height: 10em;
-    width: 18em;
-    outline: none;
+    width: 90%;
     margin: 0 auto;
 }
 
