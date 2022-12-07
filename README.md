@@ -80,6 +80,8 @@ The images were used with the permission of their owners.All pictures are pictur
 Wireframes were created for mobile, tablet and desktop.
 No digital wireframes, only designed on paper.
 
+![wireframe](documentation/wireframe1.jpg)
+
 #### Features
 
 The website is comprised of four pages(home page, trails page,book page and about page), all accessible from the navigation menu.
